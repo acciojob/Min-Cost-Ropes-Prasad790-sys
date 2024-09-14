@@ -4,7 +4,7 @@ function mincost(arr)
 	arr.sort((a,b)=>a-b);
 	while(arr.length>1){
 		let f=arr.shift();
-		let s=arr.shif();
+		let s=arr.shift();
 		c+=f+s;
 		arr.push(f+s);
 		arr.sort((a,b)=>a-b);
